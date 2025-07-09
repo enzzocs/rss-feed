@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Anúncios</title>
+  <link>https://suaempresa.com</link>
+  <description>Feed de anúncios ACP</description>
+  <lastBuildDate>Tue, 09 Jul 2025 12:00:00 +0000</lastBuildDate>
+
+  <item>
+    <title>Atualização X</title>
+    <link>https://suaempresa.com/anuncio1</link>
+    <description>Atualização de rotina</description>
+    <pubDate>Tue, 09 Jul 2025 12:00:00 +0000</pubDate>
+    <guid isPermaLink="false">abc123</guid>
+  </item>
+
+  <!-- Adicione mais <item> aqui -->
+
+</channel>
+</rss>
