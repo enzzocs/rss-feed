@@ -5,14 +5,12 @@ import json
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from dateutil import parser
-dt = parser.parse(data_str)
-
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # IDs e nomes
 SPREADSHEET_ID = '1WO1JfJMPcCypIUmxbt0Qir8iLDweeOP0NBtp5SmqVZk'  # sua planilha
-RANGE_NAME = 'Página1!A:E'  # ajuste o nome da aba e intervalo (Título, Link, Descrição, Data, Urgência)
+RANGE_NAME = 'Página1!A:E'  # Título, Link, Descrição, Data, Urgência
 
 def get_sheet_values():
     creds_json = os.environ.get('GOOGLE_SERVICE_ACCOUNT')
@@ -26,14 +24,18 @@ def get_sheet_values():
 
 def gerar_feed_xml(rows):
     items = []
-    for row in rows[1:]:  # Pula o cabeçalho
+    for row in rows[1:]:  # pula o cabeçalho
         try:
             titulo, link, descricao, data_str, urgencia = row
         except ValueError:
-            continue
+            continue  # pula linhas incompletas
 
-        dt = datetime.strptime(data_str, '%Y-%m-%d %H:%M:%S')
-        pubdate = dt.strftime('%a, %d %b %Y %H:%M:%S +0000')
+        try:
+            dt = parser.parse(data_str)
+            pubdate = dt.strftime('%a, %d %b %Y %H:%M:%S +0000')
+        except Exception:
+            pubdate = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+
         item = f"""
   <item>
     <title>[{urgencia}] {titulo}</title>
