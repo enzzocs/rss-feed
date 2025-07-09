@@ -3,7 +3,7 @@ name: Generate RSS Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'  # Roda a cada 15 minutos
+    - cron: '*/15 * * * *'
   repository_dispatch:
     types: [update-feed]
 
@@ -14,6 +14,8 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Setup Python
       uses: actions/setup-python@v4
