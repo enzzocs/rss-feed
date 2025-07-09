@@ -32,9 +32,12 @@ jobs:
         python generate_feed.py
 
     - name: Commit and push feed.xml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add feed.xml
         git diff --cached --quiet || git commit -m "Atualização automática do feed.xml"
+        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
         git push
