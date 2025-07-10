@@ -4,21 +4,21 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Thu, 10 Jul 2025 11:47:44 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Jul 2025 12:12:52 +0000</lastBuildDate>
   
   <item>
-    <title>[Baixa] Chato</title>
+    <title>[Baixa] ACP</title>
     <link>https://www.acp-sistemas.com.br/</link>
-    <description>ACP</description>
+    <description>Site adc sistemas</description>
     <pubDate>Wed, 09 Jul 2025 10:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuYWNwLXNpc3RlbWFzLmNvbS5ici8=</guid>
   </item>
   <item>
-    <title>[Alta] League</title>
-    <link>https://www.leagueoflegends.com/pt-br/</link>
-    <description>LOL</description>
+    <title>[Alta] Instagram</title>
+    <link>https://www.instagram.com/acp.sistemas/</link>
+    <description>Insta</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
-    <guid isPermaLink="false">aHR0cHM6Ly93d3cubGVhZ3Vlb2ZsZWdlbmRzLmNvbS9wdC1ici8=</guid>
+    <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
   </item>
 </channel>
 </rss>
