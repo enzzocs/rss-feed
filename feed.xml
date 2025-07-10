@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Thu, 10 Jul 2025 19:18:11 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Jul 2025 19:22:35 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -14,42 +14,34 @@
   <item>
     <title>LOL</title>
     <link>https://www.leagueofgraphs.com/pt/summoner/br/Immeral-BR1</link>
-    <description><![CDATA[
-  <img src="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" style="width:30px; float:left; margin-right:10px;" />
-  fodac
-]]></description>
+    <description>fodac</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cubGVhZ3Vlb2ZncmFwaHMuY29tL3B0L3N1bW1vbmVyL2JyL0ltbWVyYWwtQlIx</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
   <item>
     <title>Ao moço</title>
     <link></link>
-    <description><![CDATA[
-  <img src="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" style="width:30px; float:left; margin-right:10px;" />
-  Kekos
-]]></description>
+    <description>Kekos</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false"></guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
   <item>
     <title>Instagram</title>
     <link>https://www.instagram.com/acp.sistemas/</link>
-    <description><![CDATA[
-  <img src="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" style="width:30px; float:left; margin-right:10px;" />
-  Insta
-]]></description>
+    <description>Insta</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
   </item>
   <item>
     <title>ACP</title>
     <link>https://www.acp-sistemas.com.br/</link>
-    <description><![CDATA[
-  <img src="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" style="width:30px; float:left; margin-right:10px;" />
-  Site adc sistemas
-]]></description>
+    <description>Site adc sistemas</description>
     <pubDate>Wed, 09 Jul 2025 10:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuYWNwLXNpc3RlbWFzLmNvbS5ici8=</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" medium="image" />
   </item>
 </channel>
 </rss>
