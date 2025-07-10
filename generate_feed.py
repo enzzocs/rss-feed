@@ -18,7 +18,7 @@ URGENCIA_IMAGENS = {
     "3": "https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png"
 }
 
-# Imagem do canal
+# Imagem do canal (opcional)
 CANAL_IMAGEM = "https://enzzocs.github.io/rss-feed/img/logo.png"
 
 def get_sheet_values():
@@ -49,7 +49,7 @@ def gerar_feed_xml(rows):
         urgencia = urgencia.strip()
         imagem_url = URGENCIA_IMAGENS.get(urgencia, "")
 
-        enclosure = f'<enclosure url="{imagem_url}" type="image/png" />' if imagem_url else ""
+        enclosure = f'<enclosure url="{imagem_url}" length="0" type="image/png" />' if imagem_url else ""
 
         item = {
             "urgencia": int(urgencia),
@@ -66,7 +66,7 @@ def gerar_feed_xml(rows):
 
         items.append(item)
 
-    items.sort(key=lambda x: x["urgencia"])  # Urgência 1 = mais alta
+    items.sort(key=lambda x: x["urgencia"])  # Urgência 1 (alta) vem primeiro
 
     now = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
 
