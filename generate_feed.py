@@ -47,9 +47,8 @@ def gerar_feed_xml(rows):
         urgencia = urgencia.strip()
         imagem_url = URGENCIA_IMAGENS.get(urgencia, "")
 
-        # Insere imagem na descrição com HTML e CSS inline para tamanho e alinhamento
         descricao_html = f"""<![CDATA[
-  <img src="{imagem_url}" style="width:40px; float:left; margin-right:10px;" />
+  <img src="{imagem_url}" style="width:30px; float:left; margin-right:10px;" />
   {descricao}
 ]]>""" if imagem_url else descricao
 
@@ -88,7 +87,6 @@ def gerar_feed_xml(rows):
 </rss>"""
 
     return feed
-
 
 def main():
     rows = get_sheet_values()
