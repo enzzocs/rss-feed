@@ -8,7 +8,6 @@ from dateutil import parser
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
-# IDs e nomes
 SPREADSHEET_ID = '1WO1JfJMPcCypIUmxbt0Qir8iLDweeOP0NBtp5SmqVZk'
 RANGE_NAME = 'Página1!A:E'
 
@@ -18,6 +17,9 @@ URGENCIA_IMAGENS = {
     "2": "https://enzzocs.github.io/rss-feed/img/urgencia_media.png",
     "3": "https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png"
 }
+
+# Imagem do canal (opcional)
+CANAL_IMAGEM = "https://enzzocs.github.io/rss-feed/img/logo.png"
 
 def get_sheet_values():
     creds_json = os.environ.get('GOOGLE_SERVICE_ACCOUNT')
@@ -32,7 +34,7 @@ def get_sheet_values():
 def gerar_feed_xml(rows):
     items = []
 
-    for row in rows[1:]:  # pula o cabeçalho
+    for row in rows[1:]:
         try:
             titulo, link, descricao, data_str, urgencia = row
         except ValueError:
@@ -45,29 +47,29 @@ def gerar_feed_xml(rows):
             pubdate = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
 
         urgencia = urgencia.strip()
-        imagem = URGENCIA_IMAGENS.get(urgencia, "")
-        descricao_com_img = f"""<![CDATA[
-        <img src="{imagem}" style="width:16px;height:16px;" /> {descricao}
-        ]]>"""
+        imagem_url = URGENCIA_IMAGENS.get(urgencia, "")
 
         item = {
             "urgencia": int(urgencia),
             "xml": f"""
   <item>
-    <title>[{urgencia}] {titulo}</title>
+    <title>{titulo}</title>
     <link>{link}</link>
-    <description>{descricao_com_img}</description>
+    <description>{descricao}</description>
     <pubDate>{pubdate}</pubDate>
     <guid isPermaLink="false">{base64.b64encode(link.encode()).decode()}</guid>
+    <image>
+      <url>{imagem_url}</url>
+    </image>
   </item>"""
         }
 
         items.append(item)
 
-    # Ordena por urgência crescente (1 = Alta prioridade)
-    items.sort(key=lambda x: x["urgencia"])
+    items.sort(key=lambda x: x["urgencia"])  # 1 (alta) vem primeiro
 
     now = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
@@ -75,6 +77,11 @@ def gerar_feed_xml(rows):
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
   <lastBuildDate>{now}</lastBuildDate>
+  <image>
+    <url>{CANAL_IMAGEM}</url>
+    <title>Anúncios ACP</title>
+    <link>https://enzzocs.github.io/rss-feed/</link>
+  </image>
   {''.join([item["xml"] for item in items])}
 </channel>
 </rss>"""
