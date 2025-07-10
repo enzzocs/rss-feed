@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
 <channel>
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Thu, 10 Jul 2025 19:09:22 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Jul 2025 19:11:58 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -20,7 +20,6 @@
 ]]></description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cubGVhZ3Vlb2ZncmFwaHMuY29tL3B0L3N1bW1vbmVyL2JyL0ltbWVyYWwtQlIx</guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
   <item>
     <title>Ao moço</title>
@@ -31,7 +30,6 @@
 ]]></description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false"></guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
   <item>
     <title>Instagram</title>
@@ -42,7 +40,6 @@
 ]]></description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
   </item>
   <item>
     <title>ACP</title>
@@ -53,7 +50,6 @@
 ]]></description>
     <pubDate>Wed, 09 Jul 2025 10:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuYWNwLXNpc3RlbWFzLmNvbS5ici8=</guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" medium="image" />
   </item>
 </channel>
 </rss>
