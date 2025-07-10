@@ -9,8 +9,15 @@ from dateutil import parser
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # IDs e nomes
-SPREADSHEET_ID = '1WO1JfJMPcCypIUmxbt0Qir8iLDweeOP0NBtp5SmqVZk'  # sua planilha
-RANGE_NAME = 'Página1!A:E'  # Título, Link, Descrição, Data, Urgência
+SPREADSHEET_ID = '1WO1JfJMPcCypIUmxbt0Qir8iLDweeOP0NBtp5SmqVZk'
+RANGE_NAME = 'Página1!A:E'
+
+# URLs das imagens por urgência (1 = Alta, 2 = Média, 3 = Baixa)
+URGENCIA_IMAGENS = {
+    "1": "https://enzzocs.github.io/rss-feed/img/urgencia_alta.png",
+    "2": "https://enzzocs.github.io/rss-feed/img/urgencia_media.png",
+    "3": "https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png"
+}
 
 def get_sheet_values():
     creds_json = os.environ.get('GOOGLE_SERVICE_ACCOUNT')
@@ -24,11 +31,12 @@ def get_sheet_values():
 
 def gerar_feed_xml(rows):
     items = []
+
     for row in rows[1:]:  # pula o cabeçalho
         try:
             titulo, link, descricao, data_str, urgencia = row
         except ValueError:
-            continue  # pula linhas incompletas
+            continue
 
         try:
             dt = parser.parse(data_str)
@@ -36,15 +44,28 @@ def gerar_feed_xml(rows):
         except Exception:
             pubdate = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
 
-        item = f"""
+        urgencia = urgencia.strip()
+        imagem = URGENCIA_IMAGENS.get(urgencia, "")
+        descricao_com_img = f"""<![CDATA[
+        <img src="{imagem}" style="width:16px;height:16px;" /> {descricao}
+        ]]>"""
+
+        item = {
+            "urgencia": int(urgencia),
+            "xml": f"""
   <item>
     <title>[{urgencia}] {titulo}</title>
     <link>{link}</link>
-    <description>{descricao}</description>
+    <description>{descricao_com_img}</description>
     <pubDate>{pubdate}</pubDate>
     <guid isPermaLink="false">{base64.b64encode(link.encode()).decode()}</guid>
   </item>"""
+        }
+
         items.append(item)
+
+    # Ordena por urgência crescente (1 = Alta prioridade)
+    items.sort(key=lambda x: x["urgencia"])
 
     now = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -54,9 +75,10 @@ def gerar_feed_xml(rows):
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
   <lastBuildDate>{now}</lastBuildDate>
-  {''.join(items)}
+  {''.join([item["xml"] for item in items])}
 </channel>
 </rss>"""
+
     return feed
 
 def main():
