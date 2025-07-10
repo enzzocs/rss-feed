@@ -55,7 +55,10 @@ def gerar_feed_xml(rows):
   <item>
     <title>{titulo}</title>
     <link>{link}</link>
-    <description>{descricao}</description>
+    <description><![CDATA[
+  <img src="{imagem_url}" style="width:40px; float:left; margin-right:10px;" />
+  {descricao}
+]]></description>
     <pubDate>{pubdate}</pubDate>
     <guid isPermaLink="false">{base64.b64encode(link.encode()).decode()}</guid>
     {media_content}
