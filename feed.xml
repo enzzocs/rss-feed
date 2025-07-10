@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Thu, 10 Jul 2025 19:47:05 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Jul 2025 19:47:42 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -36,7 +36,7 @@
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
   </item>
   <item>
-    <title>ACP</title>
+    <title>🔴 ACP</title>
     <link>https://www.acp-sistemas.com.br/</link>
     <description>Site adc sistemas</description>
     <pubDate>Wed, 09 Jul 2025 10:00:00 +0000</pubDate>
