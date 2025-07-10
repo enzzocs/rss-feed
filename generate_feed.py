@@ -11,14 +11,12 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 SPREADSHEET_ID = '1WO1JfJMPcCypIUmxbt0Qir8iLDweeOP0NBtp5SmqVZk'
 RANGE_NAME = 'Página1!A:E'
 
-# URLs das imagens por urgência (1 = Alta, 2 = Média, 3 = Baixa)
 URGENCIA_IMAGENS = {
     "1": "https://enzzocs.github.io/rss-feed/img/urgencia_alta.png",
     "2": "https://enzzocs.github.io/rss-feed/img/urgencia_media.png",
     "3": "https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png"
 }
 
-# Imagem do canal (opcional)
 CANAL_IMAGEM = "https://enzzocs.github.io/rss-feed/img/logo.png"
 
 def get_sheet_values():
@@ -49,7 +47,7 @@ def gerar_feed_xml(rows):
         urgencia = urgencia.strip()
         imagem_url = URGENCIA_IMAGENS.get(urgencia, "")
 
-        enclosure = f'<enclosure url="{imagem_url}" length="0" type="image/png" />' if imagem_url else ""
+        media_content = f'<media:content url="{imagem_url}" medium="image" />' if imagem_url else ""
 
         item = {
             "urgencia": int(urgencia),
@@ -60,18 +58,18 @@ def gerar_feed_xml(rows):
     <description>{descricao}</description>
     <pubDate>{pubdate}</pubDate>
     <guid isPermaLink="false">{base64.b64encode(link.encode()).decode()}</guid>
-    {enclosure}
+    {media_content}
   </item>"""
         }
 
         items.append(item)
 
-    items.sort(key=lambda x: x["urgencia"])  # Urgência 1 (alta) vem primeiro
+    items.sort(key=lambda x: x["urgencia"])  # Urgência 1 = mais alta
 
     now = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
 
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
