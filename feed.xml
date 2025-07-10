@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Thu, 10 Jul 2025 14:38:10 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Jul 2025 14:41:31 +0000</lastBuildDate>
   
   <item>
     <title>[Baixa] ACP</title>
@@ -19,6 +19,20 @@
     <description>Insta</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
+  </item>
+  <item>
+    <title>[Alta] LOL</title>
+    <link>https://www.leagueofgraphs.com/pt/summoner/br/Immeral-BR1</link>
+    <description>fodac</description>
+    <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
+    <guid isPermaLink="false">aHR0cHM6Ly93d3cubGVhZ3Vlb2ZncmFwaHMuY29tL3B0L3N1bW1vbmVyL2JyL0ltbWVyYWwtQlIx</guid>
+  </item>
+  <item>
+    <title>[Alta] Ao moço</title>
+    <link></link>
+    <description>Kekos</description>
+    <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
+    <guid isPermaLink="false"></guid>
   </item>
 </channel>
 </rss>
