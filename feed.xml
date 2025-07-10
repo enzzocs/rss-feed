@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Thu, 10 Jul 2025 18:38:59 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Jul 2025 18:48:16 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -17,9 +17,7 @@
     <description>fodac</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cubGVhZ3Vlb2ZncmFwaHMuY29tL3B0L3N1bW1vbmVyL2JyL0ltbWVyYWwtQlIx</guid>
-    <image>
-      <url>https://enzzocs.github.io/rss-feed/img/urgencia_alta.png</url>
-    </image>
+    <enclosure url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" type="image/png" />
   </item>
   <item>
     <title>Ao moço</title>
@@ -27,9 +25,7 @@
     <description>Kekos</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false"></guid>
-    <image>
-      <url>https://enzzocs.github.io/rss-feed/img/urgencia_alta.png</url>
-    </image>
+    <enclosure url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" type="image/png" />
   </item>
   <item>
     <title>Instagram</title>
@@ -37,9 +33,7 @@
     <description>Insta</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
-    <image>
-      <url>https://enzzocs.github.io/rss-feed/img/urgencia_media.png</url>
-    </image>
+    <enclosure url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" type="image/png" />
   </item>
   <item>
     <title>ACP</title>
@@ -47,9 +41,7 @@
     <description>Site adc sistemas</description>
     <pubDate>Wed, 09 Jul 2025 10:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuYWNwLXNpc3RlbWFzLmNvbS5ici8=</guid>
-    <image>
-      <url>https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png</url>
-    </image>
+    <enclosure url="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" type="image/png" />
   </item>
 </channel>
 </rss>
