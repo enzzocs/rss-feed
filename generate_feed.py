@@ -47,7 +47,11 @@ def gerar_feed_xml(rows):
         urgencia = urgencia.strip()
         imagem_url = URGENCIA_IMAGENS.get(urgencia, "")
 
-        media_content = f'<media:content url="{imagem_url}" medium="image" />' if imagem_url else ""
+        # Insere imagem na descrição com HTML e CSS inline para tamanho e alinhamento
+        descricao_html = f"""<![CDATA[
+  <img src="{imagem_url}" style="width:40px; float:left; margin-right:10px;" />
+  {descricao}
+]]>""" if imagem_url else descricao
 
         item = {
             "urgencia": int(urgencia),
@@ -55,24 +59,20 @@ def gerar_feed_xml(rows):
   <item>
     <title>{titulo}</title>
     <link>{link}</link>
-    <description><![CDATA[
-  <img src="{imagem_url}" style="width:40px; float:left; margin-right:10px;" />
-  {descricao}
-]]></description>
+    <description>{descricao_html}</description>
     <pubDate>{pubdate}</pubDate>
     <guid isPermaLink="false">{base64.b64encode(link.encode()).decode()}</guid>
-    {media_content}
   </item>"""
         }
 
         items.append(item)
 
-    items.sort(key=lambda x: x["urgencia"])  # Urgência 1 = mais alta
+    items.sort(key=lambda x: x["urgencia"])
 
     now = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
 
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
 <channel>
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
@@ -88,6 +88,7 @@ def gerar_feed_xml(rows):
 </rss>"""
 
     return feed
+
 
 def main():
     rows = get_sheet_values()
