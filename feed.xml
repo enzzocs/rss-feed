@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Fri, 11 Jul 2025 11:47:54 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Jul 2025 12:22:20 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -12,35 +12,27 @@
   </image>
   
   <item>
-    <title>🔴 ACP</title>
+    <title>📌 A sua opinião importa muito!</title>
     <link>https://forms.gle/bxfm2wQEkVG5QBRg6</link>
-    <description>Site adc sistemas</description>
-    <pubDate>Wed, 09 Jul 2025 10:00:00 +0000</pubDate>
+    <description>Gostaríamos de saber a sua opinião em relação ao material de apoio que oferecemos sobre o sistema b.loc. A sua resposta nos ajudará a melhorar cada vez mais! Leva apenas 2 min e pode ser feito de forma anônima. Agradecemos a colaboração!</description>
+    <pubDate>Tue, 08 Jul 2025 10:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly9mb3Jtcy5nbGUvYnhmbTJ3UUVrVkc1UUJSZzY=</guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
   <item>
-    <title>LOL</title>
-    <link>https://www.leagueofgraphs.com/pt/summoner/br/Immeral-BR1</link>
-    <description>fodac</description>
-    <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
-    <guid isPermaLink="false">aHR0cHM6Ly93d3cubGVhZ3Vlb2ZncmFwaHMuY29tL3B0L3N1bW1vbmVyL2JyL0ltbWVyYWwtQlIx</guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
-  </item>
-  <item>
-    <title>Ao moço</title>
-    <link></link>
-    <description>Kekos</description>
-    <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
-    <guid isPermaLink="false"></guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
-  </item>
-  <item>
-    <title>Instagram</title>
+    <title>📌 Acompanhe a ACP-Sistemas no Instagram</title>
     <link>https://www.instagram.com/acp.sistemas/</link>
-    <description>Insta</description>
+    <description>Semanalmente divulgamos posts e reels sobre funcionalidades e dúvidas do sistema para te manter bem informado! Nos siga lá: @acp.sistemas</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
+  </item>
+  <item>
+    <title>📌 Atualizações Junho/2025</title>
+    <link>https://acp-sistemas.movidesk.com/kb/pt-br/article/543037/junho-2025</link>
+    <description>Divulgamos as correções, melhorias e inovações que ocorreram no sistema no último mês de junho. Confira!</description>
+    <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
+    <guid isPermaLink="false">aHR0cHM6Ly9hY3Atc2lzdGVtYXMubW92aWRlc2suY29tL2tiL3B0LWJyL2FydGljbGUvNTQzMDM3L2p1bmhvLTIwMjU=</guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
   </item>
 </channel>
