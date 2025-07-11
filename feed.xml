@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Fri, 11 Jul 2025 12:22:20 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Jul 2025 13:06:00 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -20,19 +20,19 @@
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
   <item>
-    <title>📌 Acompanhe a ACP-Sistemas no Instagram</title>
-    <link>https://www.instagram.com/acp.sistemas/</link>
-    <description>Semanalmente divulgamos posts e reels sobre funcionalidades e dúvidas do sistema para te manter bem informado! Nos siga lá: @acp.sistemas</description>
-    <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
-    <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
-  </item>
-  <item>
     <title>📌 Atualizações Junho/2025</title>
     <link>https://acp-sistemas.movidesk.com/kb/pt-br/article/543037/junho-2025</link>
     <description>Divulgamos as correções, melhorias e inovações que ocorreram no sistema no último mês de junho. Confira!</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly9hY3Atc2lzdGVtYXMubW92aWRlc2suY29tL2tiL3B0LWJyL2FydGljbGUvNTQzMDM3L2p1bmhvLTIwMjU=</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
+  </item>
+  <item>
+    <title>📌 Acompanhe a ACP-Sistemas no Instagram</title>
+    <link>https://www.instagram.com/acp.sistemas/</link>
+    <description>Semanalmente divulgamos posts e reels sobre funcionalidades e dúvidas do sistema para te manter bem informado! Nos siga lá: @acp.sistemas</description>
+    <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
+    <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
   </item>
 </channel>
