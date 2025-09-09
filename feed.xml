@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Tue, 09 Sep 2025 20:12:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 09 Sep 2025 20:30:27 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -34,6 +34,14 @@
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
+  </item>
+  <item>
+    <title>⚠️Administração de usuários no bloc</title>
+    <link></link>
+    <description>Estamos finalizando uma nova atualização, que permitirá não somente gerenciar os usuários diretamente pelo bloc, como as senhas de bloc e bestloc passam a ser unificadas. Aguarde...</description>
+    <pubDate>Tue, 09 Sep 2025 12:00:00 +0000</pubDate>
+    <guid isPermaLink="false"></guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" medium="image" />
   </item>
 </channel>
 </rss>
