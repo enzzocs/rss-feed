@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Wed, 10 Sep 2025 08:15:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 10 Sep 2025 08:43:09 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -33,7 +33,7 @@
     <description>Divulgamos as correções, melhorias e inovações que ocorreram no sistema no último mês de junho. Confira!</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly9wbGFubmVyeC5jb20uYnIvYXJ0aWdvLXZpZXcvYXR1YWxpemHDp8O1ZXMtZGUtanVsaG8tLS1ibG9j</guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" medium="image" />
   </item>
   <item>
     <title>📌 Acompanhe a ACP-Sistemas no Instagram</title>
@@ -41,7 +41,7 @@
     <description>Semanalmente divulgamos posts e reels sobre funcionalidades e dúvidas do sistema para te manter bem informado! Nos siga lá: @acp.sistemas</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" medium="image" />
+    
   </item>
 </channel>
 </rss>
