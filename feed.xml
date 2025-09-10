@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Wed, 10 Sep 2025 11:47:27 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 10 Sep 2025 12:21:24 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -12,7 +12,7 @@
   </image>
   
   <item>
-    <title>⚠️Administração de usuários no bloc</title>
+    <title>⚠️ Administração de usuários no b.loc</title>
     <link></link>
     <description>Estamos finalizando uma nova atualização, que permitirá não somente gerenciar os usuários diretamente pelo bloc, como as senhas de bloc e bestloc passam a ser unificadas. Aguarde...</description>
     <pubDate>Tue, 09 Sep 2025 12:00:00 +0000</pubDate>
@@ -20,20 +20,20 @@
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
   <item>
-    <title>📌 A sua opinião importa muito!</title>
-    <link>https://forms.gle/bxfm2wQEkVG5QBRg6</link>
-    <description>Gostaríamos de saber a sua opinião em relação ao material de apoio que oferecemos sobre o sistema b.loc. A sua resposta nos ajudará a melhorar cada vez mais! Leva apenas 2 min e pode ser feito de forma anônima. Agradecemos a colaboração!</description>
+    <title>📌 Nova Central de Ajuda b.loc</title>
+    <link>https://bloc.net.br/centraldeajuda</link>
+    <description>Temos uma nova Central de Ajuda para o sistema b.loc! Ela ainda está passando por uma reformulação, por isso pedimos paciência. Enquanto isso, pedimos para que quaisquer possíveis dúvidas, acionem nosso suporte.</description>
     <pubDate>Tue, 08 Jul 2025 10:00:00 +0000</pubDate>
-    <guid isPermaLink="false">aHR0cHM6Ly9mb3Jtcy5nbGUvYnhmbTJ3UUVrVkc1UUJSZzY=</guid>
+    <guid isPermaLink="false">aHR0cHM6Ly9ibG9jLm5ldC5ici9jZW50cmFsZGVhanVkYQ==</guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
   </item>
   <item>
-    <title>📌 Atualizações Julho/2025</title>
-    <link>https://plannerx.com.br/artigo-view/atualizações-de-julho---bloc</link>
-    <description>Divulgamos as correções, melhorias e inovações que ocorreram no sistema no último mês de junho. Confira!</description>
+    <title>📌 Atualizações Agosto/2025</title>
+    <link>https://bloc.net.br/centraldeajuda/index.php/atualizacoes</link>
+    <description>Divulgamos as correções, melhorias e inovações que ocorreram no sistema no último mês de agosto. Confira!</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
-    <guid isPermaLink="false">aHR0cHM6Ly9wbGFubmVyeC5jb20uYnIvYXJ0aWdvLXZpZXcvYXR1YWxpemHDp8O1ZXMtZGUtanVsaG8tLS1ibG9j</guid>
-    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" medium="image" />
+    <guid isPermaLink="false">aHR0cHM6Ly9ibG9jLm5ldC5ici9jZW50cmFsZGVhanVkYS9pbmRleC5waHAvYXR1YWxpemFjb2Vz</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_media.png" medium="image" />
   </item>
   <item>
     <title>📌 Acompanhe a ACP-Sistemas no Instagram</title>
@@ -41,7 +41,7 @@
     <description>Semanalmente divulgamos posts e reels sobre funcionalidades e dúvidas do sistema para te manter bem informado! Nos siga lá: @acp.sistemas</description>
     <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY3Auc2lzdGVtYXMv</guid>
-    
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_baixa.png" medium="image" />
   </item>
 </channel>
 </rss>
