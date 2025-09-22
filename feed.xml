@@ -4,13 +4,23 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Mon, 22 Sep 2025 14:12:06 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 22 Sep 2025 14:33:16 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
     <link>https://enzzocs.github.io/rss-feed/</link>
   </image>
   
+  <item>
+    <title>⚠️ Confira o número do nosso suporte via Whatsapp</title>
+    <link></link>
+    <description>Para atendimento via whatsapp, chame-nos no número (51)980 811 971
+O antigo número é dedicado ao nosso time comercial.
+Grato pela compreensão.</description>
+    <pubDate>Mon, 22 Sep 2025 14:33:16 +0000</pubDate>
+    <guid isPermaLink="false"></guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
+  </item>
   <item>
     <title>📌A nova versão do b.loc, com  administração de usuários já esta disponível</title>
     <link></link>
