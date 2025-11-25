@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Tue, 25 Nov 2025 22:11:41 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 25 Nov 2025 22:33:26 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -12,9 +12,17 @@
   </image>
   
   <item>
-    <title>⚠️27/11/2025 - 19hs - 1ª reunião do projetos dos APPs (operações e logística)</title>
+    <title>📌Logística - SEPARAÇÃO - já esta pronta no b.loc</title>
+    <link>https://www.youtube.com/@acp.sistemas</link>
+    <description>Concluimos a primeira versão deste módulo. Nos proximos dias você já poderá acessar os tutoriais onde mostraremos todas as novidades. Se inscreva no nosso canal  APtsCs_PT.pdf</description>
+    <pubDate>Tue, 25 Nov 2025 19:00:00 +0000</pubDate>
+    <guid isPermaLink="false">aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGFjcC5zaXN0ZW1hcw==</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
+  </item>
+  <item>
+    <title>⚠️27/11/2025 - 19hs - 1ª reunião do projeto dos APPs (operações e logística)</title>
     <link>https://forms.gle/A3BbgNEmJuMKCtmW7</link>
-    <description>Não perca! Clique aqui e se increva agora mesmo e participe deste eventos. Neste 1º encontro mostraremos o escopo geral do projeto, o que já temos pronto e o que pretendemos. Mais do que isto, é uma oportunidade importante para ouvirmos a suas necessidades</description>
+    <description>Não perca! Clique aqui e se increva agora mesmo e participe deste evento. Neste 1º encontro mostraremos o escopo geral do projeto, o que já temos pronto e o que pretendemos. Mais do que isto, é uma oportunidade importante para ouvirmos a suas necessidades</description>
     <pubDate>Tue, 25 Nov 2025 15:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly9mb3Jtcy5nbGUvQTNCYmdORW1KdU1LQ3RtVzc=</guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
@@ -26,7 +34,7 @@
 (51)980.811.971
 O antigo número é dedicado ao nosso time comercial.
 Grato pela compreensão.</description>
-    <pubDate>Tue, 25 Nov 2025 22:11:41 +0000</pubDate>
+    <pubDate>Tue, 25 Nov 2025 22:33:26 +0000</pubDate>
     <guid isPermaLink="false"></guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
