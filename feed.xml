@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Tue, 25 Nov 2025 18:18:34 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 25 Nov 2025 18:48:12 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -12,13 +12,21 @@
   </image>
   
   <item>
+    <title>⚠️27/11/2025 - 19hs - 1ª reunião do projetos dos APPs (operações e logística)</title>
+    <link>https://forms.gle/A3BbgNEmJuMKCtmW7</link>
+    <description>Não perca! Clique aqui e se increva agora mesmo e participe deste eventos. Neste 1º encontro mostraremos o escopo geral do projeto, o que já temos pronto e o que pretendemos. Mais do que isto, é uma oportunidade importante para ouvirmos a suas necessidades</description>
+    <pubDate>Tue, 25 Nov 2025 15:00:00 +0000</pubDate>
+    <guid isPermaLink="false">aHR0cHM6Ly9mb3Jtcy5nbGUvQTNCYmdORW1KdU1LQ3RtVzc=</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
+  </item>
+  <item>
     <title>⚠️ Confira o número do nosso suporte via Whatsapp</title>
     <link></link>
     <description>Para atendimento via whatsapp, chame-nos no número:
 (51)980.811.971
 O antigo número é dedicado ao nosso time comercial.
 Grato pela compreensão.</description>
-    <pubDate>Tue, 25 Nov 2025 18:18:34 +0000</pubDate>
+    <pubDate>Tue, 25 Nov 2025 18:48:12 +0000</pubDate>
     <guid isPermaLink="false"></guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
