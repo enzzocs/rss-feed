@@ -4,7 +4,7 @@
   <title>Anúncios ACP</title>
   <link>https://enzzocs.github.io/rss-feed/</link>
   <description>Feed gerado automaticamente via GitHub Actions</description>
-  <lastBuildDate>Sat, 29 Nov 2025 11:47:18 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 29 Nov 2025 12:21:27 +0000</lastBuildDate>
   <image>
     <url>https://enzzocs.github.io/rss-feed/img/logo.png</url>
     <title>Anúncios ACP</title>
@@ -12,9 +12,17 @@
   </image>
   
   <item>
+    <title>⚠️Pedido de compras</title>
+    <link>https://www.youtube.com/@acp.sistemas</link>
+    <description>Este módulo agora também já esta no b.loc ! Se vc já tem licenciado esta funcionalidade já poderá aproveitar as novidades que colamos pra você.</description>
+    <pubDate>Sat, 29 Nov 2025 09:00:00 +0000</pubDate>
+    <guid isPermaLink="false">aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGFjcC5zaXN0ZW1hcw==</guid>
+    <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
+  </item>
+  <item>
     <title>📌Logística - SEPARAÇÃO - já esta pronta no b.loc</title>
     <link>https://www.youtube.com/@acp.sistemas</link>
-    <description>Concluimos a primeira versão deste módulo. Nos proximos dias você já poderá acessar os tutoriais onde mostraremos todas as novidades. Se inscreva no nosso canal www.youtube.com/GT App ACP-Sistemas</description>
+    <description>Concluimos a primeira versão deste módulo. Nos proximos dias você já poderá acessar os tutoriais onde mostraremos todas as novidades. Se inscreva no nosso canal https://www.youtube.com/@acp.sistemas</description>
     <pubDate>Tue, 25 Nov 2025 19:00:00 +0000</pubDate>
     <guid isPermaLink="false">aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGFjcC5zaXN0ZW1hcw==</guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
@@ -34,7 +42,7 @@
 (51)980.811.971
 O antigo número é dedicado ao nosso time comercial.
 Grato pela compreensão.</description>
-    <pubDate>Sat, 29 Nov 2025 11:47:18 +0000</pubDate>
+    <pubDate>Sat, 29 Nov 2025 12:21:27 +0000</pubDate>
     <guid isPermaLink="false"></guid>
     <media:content url="https://enzzocs.github.io/rss-feed/img/urgencia_alta.png" medium="image" />
   </item>
